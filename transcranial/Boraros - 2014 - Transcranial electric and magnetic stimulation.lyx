@@ -1,0 +1,1214 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass IEEEtran
+\options jurnal,a4paper
+\use_default_options true
+\begin_modules
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_numerical
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\bullet 1 0 9 -1
+\bullet 2 0 0 -1
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Fundamentals and Future Directions of Transcranial Electric and Magnetic
+ Stimulation
+\end_layout
+
+\begin_layout Author
+Peter Boráros 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+~
+\backslash
+and~
+\end_layout
+
+\end_inset
+
+ Eugen Kvašňák 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thanks{
+\backslash
+href{mailto:peter.boraros@gmail.com}{P.
+ Boráros} is with Czech Technical University in Prague}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thanks{
+\backslash
+href{mailto:eugen.kvasnak@gmail.com}{E.
+ Kva
+\backslash
+v{s}
+\backslash
+v{n}ák} is with Charles University in Prague}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+The methods of transcranial electric and magnetic stimulation (TS) are used
+ to noninvasively modulate cortical activity.
+ The TS techniques found their use in therapy in the areas of psychiatry,
+ neurology, neurophysiology.
+ The methods of TS emerged based on empirical knowledge about modulation
+ of neuronal activity using external electromagnetic field.
+ Nowadays, structured research is focused on understanding of TS principles
+ leading to novel, more efficient methods and protocols.
+ In present work, we brought overview of TS methods in use and we identified
+ some of the future directions of the research and development.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+IEEEpeerreviewmaketitle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Transcranial electric and magnetic stimulation is a set of techniques used
+ to modulate the cortical neuronal activity utilizing the external source
+ of electric or magnetic field applied on the scalp.
+ The field non-invasively affects cortical tissue to few centimeters beneath
+ the skull, therefore it interferes with cortical gyri and to a limited
+ extent with cortical sulci as well.
+ The field causes depolarisation or hyperpolarisation of the neuronal membranes
+ in affected tissue which is accompanied by changes in neuronal excitability
+ or in case of higher intensities also by formation of action potentials
+ in neurons.
+ This techniques have therapeutic and diagnostic applications in psychiatry,
+ neurology, neurophysiology, etc.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Describe structure of the article
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Classification and operating principles
+\end_layout
+
+\begin_layout Standard
+Depending on the type of electromagnetic field used for stimulation transcranial
+ stimulation (TS) techniques can be divided to 
+\emph on
+transcranial magnetic stimulation
+\emph default
+ (
+\emph on
+TMS
+\emph default
+) and 
+\emph on
+transcranial electric stimulation
+\emph default
+ (
+\emph on
+tES
+\emph default
+).
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:TMS"
+
+\end_inset
+
+Transcranial magnetic stimulation (TMS)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+technical description
+\end_layout
+
+\end_inset
+
+In Transcranial Magnetic Stimulation (TMS), a brief (0.2
+\begin_inset space ~
+\end_inset
+
+ms) and powerful (0.2~4.0
+\begin_inset space ~
+\end_inset
+
+T) magnetic pulse is generated by the coil.
+ The coil is excited by the pulsing electric current, that reaches its maximal
+ intensity within 0.1~0.2
+\begin_inset space ~
+\end_inset
+
+ms and then decreases to zero during next 0.5~1
+\begin_inset space ~
+\end_inset
+
+ms.
+ Rapid ramping of the magnetic flux leads to formation of an eddy currents
+ in the conductive sections of the tissue.
+ Eddy currents flow in closed loops in planes perpendicular to the magnetic
+ field.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+definition of the dose
+\end_layout
+
+\end_inset
+
+Due to the principle of induction of the electric field in the tissue, the
+ stimulating magnetic field can be effectively applied only within pulses.
+ The pulse ramp rate and the peak intensity are the main parameters affecting
+ the unit dose of the stimulation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Peterchev2012"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+effects in tissue
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+sub-division
+\end_layout
+
+\end_inset
+
+Stimulation using rhythmic trains of magnetic pulses with repetition rate
+ up to 100
+\begin_inset space ~
+\end_inset
+
+Hz is referred as a 
+\emph on
+repetitive TMS
+\emph default
+ (
+\emph on
+rTMS
+\emph default
+).
+ Different repetition rates have distinct effects on brain activity.
+ TMS, in which single pulses are used instead of trains of pulses, is sometimes
+ referred to as a 
+\emph on
+single-pulse TMS
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:single-pulse-TMS"
+
+\end_inset
+
+Single-pulse TMS
+\end_layout
+
+\begin_layout Standard
+This technique has been developed as a diagnostic method for evaluation
+ of cortico-spinal pathway.
+ During stimulation of the motor cortex with single magnetic pulses of sufficien
+t intensity an acute depolarisation of whole population of neurons occurs.
+ It is followed by excitation of neuronal pathways from brain through the
+ spinal cord to the muscles, resulting in measurable motor evoked potentials
+ (MEP).
+ This technique has been also used for evaluation of changes in excitability
+ of cortical neurons resulting from application of different transcranial
+ stimulation methods.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:rTMS"
+
+\end_inset
+
+Repetitive TMS
+\end_layout
+
+\begin_layout Standard
+Although single-pulse TMS has been developed as a diagnostic tool, it has
+ been observed that the magnetic pulses have an long term neuromodulation
+ effect.
+ This lead to a development of more powerful TMS generators capable of delivery
+ of multiple pulses within short time -- the rTMS.
+ Empirically, rTMS has been further subdivided to 
+\emph on
+low-
+\emph default
+ (rates below 1
+\begin_inset space ~
+\end_inset
+
+Hz) and 
+\emph on
+high-frequency rTMS
+\emph default
+ (rates above 5
+\begin_inset space ~
+\end_inset
+
+Hz).
+ Experimental evidence has revealed that rTMS with repetition rates below
+ 1
+\begin_inset space ~
+\end_inset
+
+Hz causes cortical inhibition and on the other hand rTMS trains above 5
+\begin_inset space ~
+\end_inset
+
+Hz have opposite effect.
+ 
+\end_layout
+
+\begin_layout Standard
+In order to increase efficiency of the high-frequency rTMS a repeated individual
+ pulses have been substituted with groups of pulses, or — the burts.
+ In a variant of rTMS, a theta-burst stimulation (TBS), the bursts of two
+ or more pulses with intra-burst rate up to 50
+\begin_inset space ~
+\end_inset
+
+Hz and inter-burst frequency of approximately 5
+\begin_inset space ~
+\end_inset
+
+Hz are used.
+ Although there is an evidence about increased efficiency, concerns about
+ safety of the method arose.
+ One of the limitations of current technology is that rTMS does not affect
+ the deeper structures of the brain, but it is known that rTMS significantly
+ involved in changing the perception of pain.
+ 
+\end_layout
+
+\begin_layout Standard
+According to recent studies 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rokyta2014"
+
+\end_inset
+
+, this method is able to induce changes in the central nervous system at
+ the cellular level including changes at ionic and metabolic level.
+ Therapeutic effects were confirmed in the literature in psychiatric disorders
+ such as depression, acute mania, bipolar disorder, panic attacks, hallucination
+s, obsessive states, schizophrenia, catatonia or post-traumatic stress disorder
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rokyta2012b"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:TES"
+
+\end_inset
+
+Transcranial electric stimulation (tES)
+\end_layout
+
+\begin_layout Standard
+While in TMS the electric current is induced in the conductive parts of
+ the tissue using external and rapidly changing magnetic field, in tES a
+ weak electric current (0.1~2.0 mA) is applied on scalp using electrodes and
+ flows through the tissue.
+ The current flow in not homogenous and has variability among the affected
+ tissue.
+ The most of the current is conducted by surface layers (skin) and only
+ small portion penetrates cortex.
+ 
+\end_layout
+
+\begin_layout Standard
+Based on time course of the electric current, tES can be divided to 
+\emph on
+transcranial direct current stimulation
+\emph default
+ (
+\emph on
+tDCS
+\emph default
+), 
+\emph on
+transcranial alternating current stimulation
+\emph default
+ (
+\emph on
+tACS
+\emph default
+), 
+\emph on
+transcranial random noise stimulation
+\emph default
+ (
+\emph on
+tRNS
+\emph default
+) and 
+\emph on
+transcranial pulsed current stimulation
+\emph default
+ (
+\emph on
+tPCS
+\emph default
+) (for reviews see 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Paulus2011a,Guleyupoglu2013a"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+Electrode area and placement are important attributes.
+ Area of the electrode must be chosen in accordance to the density and time
+ course of the current to avoid pathological changes in the tissue.
+ In order to decrease current spatial variability, multiple electrodes of
+ same polarity can be placed in circular shape around one electrode of other
+ polarity.
+ This has been used to enhance focality of tDCS and it is denoted as 
+\emph on
+high-definition tDCS
+\emph default
+ (
+\emph on
+HD-tDCS
+\emph default
+) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Caparelli-Daquer2012a"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+tDCS
+\end_layout
+
+\begin_layout Standard
+In tDCS a direct current with intensity of 0.4~2
+\begin_inset space ~
+\end_inset
+
+mA is applied on scalp via electrode pads for 5~30
+\begin_inset space ~
+\end_inset
+
+minutes.
+ Current causes most of the changes right under the electrodes: under cathode
+ it decreases excitability of cortical neurons and under the anode the effect
+ is opposite.
+ By changing the area of the electrodes a current density can be changed
+ and thus the effect of the stimulation.
+ The effects last for few hours after the stimulation ends as in TMS.
+ In clinical use, tDCS is considered as a noninvasive stimulation that is
+ affordable and easy to use compare to other neuromodulatory techniques.
+ TDCS is a promising method for the treatment of chronic pain 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "OConnell2014"
+
+\end_inset
+
+, as well as for patients with neuropsychiatric diseases and other neurological
+ disorders 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kuo2014"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Novel approaches (tACS, tPCS, tRNS)
+\end_layout
+
+\begin_layout Standard
+About novel approaches of transcranial electric stimulation is not known
+ too much.
+ In 
+\emph on
+transcranial alternating current stimulation
+\emph default
+ (
+\emph on
+tACS
+\emph default
+) an oscillatory electric current is delivered to the cortical tissue with
+ oscillation frequency between 0.1~5000
+\begin_inset space ~
+\end_inset
+
+Hz.
+ It is thought that the tACS signal interacts with ongoing cortical oscillations
+ and induce changes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Antal2013"
+
+\end_inset
+
+.
+ Another method, 
+\emph on
+transcranial pulse current stimulation
+\emph default
+ (
+\emph on
+tPCS
+\emph default
+), is a variation of tACS where the harmonic current is exchanged for the
+ rectangular electric signal.
+ Though the spectra in tPCS is wider, the dominant frequency is still the
+ baseline frequency of the pulses.
+ Recently, interest has emerged in new stimulation method, transcranial
+ random noise stimulation (tRNS) in which a random noise signal is applied
+ with the frequency spectrum normaly distributed over given frequency range.
+ tRNS is usually divided to low- (0.1~100
+\begin_inset space ~
+\end_inset
+
+Hz) and high-frequency tRNS (100~640
+\begin_inset space ~
+\end_inset
+
+Hz) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Terney2008"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Effects of TS on Neuronal Activity and Adjusting Stimulation Parameters
+\end_layout
+
+\begin_layout Subsection
+Numerical Simulation of Electromagnetic Field elicited by TS in the Brain
+\end_layout
+
+\begin_layout Standard
+Thanks to growing computational power of computers and developed SW the
+ use of numerical simulations of electromagnetic (
+\emph on
+EM
+\emph default
+) field have also rosen bringing useful tool to estimate the EM field distributi
+on induced by transcranial stimulation in human brain 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wagner2004,Golestanirad2010,Tsuyama2009,Datta2009,Bikson2012"
+
+\end_inset
+
+.
+ Simulations are typically based on finite element method (
+\emph on
+FEM
+\emph default
+).
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Describe FEM
+\end_layout
+
+\end_inset
+
+ Simplified model of the human head approximates the head with a sphere
+ exposed to time varying magnetic field 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wagner2004"
+
+\end_inset
+
+.
+ More accurate models use the volumetric imaging of human head 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Golestanirad2010,Datta2009,Bikson2012"
+
+\end_inset
+
+.
+ Different labs employ different approximations, e.g.
+ the differences in electrical properties of white/gray matter or cerebrospinal
+ fluid have been neglected 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Golestanirad2010"
+
+\end_inset
+
+ or the anisotropy of the tissue has not been taken in account 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Datta2009"
+
+\end_inset
+
+.
+ The modelling and simulation studies report of benefits coming from design
+ improvements of the coil leading to increase of spatial focality and stimulatio
+n depth of the magnetic field 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Tsuyama2009"
+
+\end_inset
+
+ or from proposal of ring shape assembly of electrodes leading to increase
+ of focality of the electrical stimulation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Datta2009,Caparelli-Daquer2012a,Edwards2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+It has been presented that numerical electromagnetic (EM) simulations (solving
+ Maxwell’s equations) are powerful tools for estimation of distribution
+ of magnetic and electric field induced by transcranial stimulation (TS)
+ inside the human head.
+ From distribution of magnetic and electric field electrical current density
+ distribution can be computed.
+ Most numerical simulations used for modeling of TS are based on finite
+ element method (FEM).
+ In literature some simplifications of realistic model of human head were
+ used.
+ In 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wagner2004"
+
+\end_inset
+
+ FEM is used to evaluate the induced electric current density in simplified
+ model, head was approximated by a sphere, exposed by a time varying magnetic
+ field.
+ A more accurate prediction of the field distribution can be found in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Golestanirad2010,Datta2009,Bikson2012"
+
+\end_inset
+
+, where different 3-D patient specific numerical head phantoms (anatomically
+ accurate numerical head models) have been developed.
+ In 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Golestanirad2010"
+
+\end_inset
+
+ the phantoms were created using head imaging data of individual patients.
+ The simulations were performed with relatively course mesh and difference
+ between electrical properties of cerebrospinal fluid and brain white/gray
+ matter was neglected.
+ The side effect of TS therapy in form of temperature increase was published
+ in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "March2014"
+
+\end_inset
+
+.
+ Improvements in coil performance would have a signiﬁcant impact in extending
+ the usefulness of TS in clinical applications 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Tsuyama2009"
+
+\end_inset
+
+.
+ New design and optimization of coil for the treatment optimization in sense
+ of ability to stimulate the brain at depth and with high spatial locality,
+ was described in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Tsuyama2009"
+
+\end_inset
+
+.
+ Also the electrode placement has been studied and 4x1 ring electrode assembly
+ has been proposed to increase focality of the stimulation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Datta2009,Caparelli-Daquer2012a,Edwards2013"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Subsection
+Physiological Effects of the Electromagnetic Field in Neuronal Tissue
+\end_layout
+
+\begin_layout Plain Layout
+won't be included
+\end_layout
+
+\begin_layout Plain Layout
+Study of effects of external EM field on neuronal populations are essential
+ to understand the changes induced by stimulation.
+ Seemingly large number of possibilities has to be narrowed down to simple
+ principles of affecting the neuronal population with external field.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Subsection
+Functional and Connectivity Mapping of the Neuronal Network
+\end_layout
+
+\begin_layout Plain Layout
+won't be included
+\end_layout
+
+\begin_layout Plain Layout
+Incorporating the network dynamics and functional connections into stimulation
+ protocols can be promising especially in methods that interact with ongoing
+ neuronal activity.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Processing of Neuronal Network Activity and Stimulation Dynamics
+\end_layout
+
+\begin_layout Standard
+TS protocols used in therapy so far neglect the dynamic nature of the neuronal
+ networks in the brain.
+ Typically, TS is applied with static parameters of electric or magnetic
+ field (e.g.
+ the intensity, frequency and timing of the pulses in rTMS are fixed during
+ TS session), spatial configuration (i.e.
+ focus of TS does not change according the tissue response).
+ In order to evaluate stimulation effects or to improve its parameters the
+ brain activity ought to be simultaneously coregistered with the stimulation.
+ Although the main drawback is the interference of stimulating EM field
+ and the acquisition system, some of the problems with interference can
+ be reduced to certain extent by filtering.
+ On the other hand, the artifacts can occur because of contraction of muscles
+ affected by TS 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ilmoniemi2010"
+
+\end_inset
+
+.
+ In stimulation by magnetic field the artifacts are generated by the interferenc
+e of powerful magnetic field with acquisition wires of device recording
+ neuronal activity.
+ In stimulation by electric current the artifacts are generated by the interfere
+nce caused by galvanic connection of the stimulation and acquisition electrodes
+ with the human body.
+ There are successful attempts to use simultaneous application of TS and
+ coregistration of the brain activity (via e.g.
+ EEG signal, glucose consumption, fMRI, blood flow, etc.) to identify the
+ most effective parameters of stimulation and so that to improve TS efficacy.
+ There are promising results found already for rTMS 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Price2010"
+
+\end_inset
+
+ or for tES in fMRI scanner 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Saiote2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Therapeutic TS protocols neglect the dynamic nature of brain neuronal networks.
+ Typically TS is applied with static electrical, temporal and spatial conditions
+ (e.g.
+ the intensity, frequency and timing of the pulses in rTMS is fixed during
+ the stimulation session).
+ In order evaluate stimulation effects or to improve its parameters the
+ brain activity ought to be coregistered with the stimulation.
+ Although the main drawback is the interference of stimulating field and
+ the acquisition system, some of the problems with interference can be reduced
+ to some extent by filtering.
+ Artifacts can also occur because of contraction of muscles that are affected
+ by the stimulation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ilmoniemi2010"
+
+\end_inset
+
+.
+ In TMS the interference of powerful magnetic field with wires of acquisition
+ device yield in artifact generation and in tES the interference is caused
+ by galvanic connection of the stimulation and acquisition electrodes with
+ the human body.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+There are attempts to use coregistration of the brain electrophysiology
+ to determine timing of the stimuli and to improve rTMS efficacy 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Price2010"
+
+\end_inset
+
+ or to use fMRI scanner to objectively evaluate the effects of tES 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Saiote2013"
+
+\end_inset
+
+, showing promising results.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+to structure as follows (the problems introduced here are almost common
+ - occurence of artifacts, based on electromagnetic interference, contraction
+ of stimulated muscles, etc.):
+\end_layout
+
+\begin_layout Enumerate
+study the changes induced by stimulator and adjust the parameters based
+ on outcomes (similar to numerical simulation, but we are analyzing the
+ efects in real neuronal tissue)
+\end_layout
+
+\begin_layout Enumerate
+adjust the stimulation parameters based on output from acquisition methods
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Section
+Risk Assesment
+\end_layout
+
+\begin_layout Subsection
+Pathological Changes Induced by Electromagnetic Field
+\end_layout
+
+\begin_layout Subsection
+Epileptoform Effect of Electromagnetic Field
+\end_layout
+
+\begin_layout Plain Layout
+won't be included
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+Methods of transcranial stimulation (TS) emerged from empirical knowledge
+ that the electric or magnetic field can induce changes in neurons of human
+ brain cortex.
+ The evidence about transient excitation or inhibition of the cortical neurons
+ elicited by TS has been found.
+ In recent years structured and systematic research has provided deeper
+ insight in the effects of TS which facilitates exploration of novel methods
+ and improvements of TS efficacy.
+ Simulations of the electromagnetic field lead to construction of more efficient
+ and more compatible stimulation and acquisition devices.
+ Functional mapping of cortical activity and connectivity of different cortical
+ areas may bring reveal novel applications and locations of TS.
+ Further progress and main challenges in TS research are expected in changing
+ the static stimulation TS protocols into real-time processing of electrophysiol
+ogical or volumetric data of neuronal network with aim to adjust electrical,
+ temporal and spatial parameters of the stimulation.
+ Thus the research and development of advanced TS techniques and protocols
+ adjusted by outcomes of simultaneous processing of activity of affected
+ neuronal populations (feedback) will be elaborated.
+ This includes the construction of compatible acquisition and stimulation
+ devices, the signal processing and analysis algorithms for artifacts filtering
+ and direct stimulation control.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Methods of transcranial stimulation (TS) emerged from empirical knowledge
+ that the electric or magnetic field can induce changes in cortical neurons
+ under cranium.
+ The evidence about transient excitation or inhibition of the cortical neurons
+ has been obtained by acquisition and study of the neuronal activity.
+ In recent years a structured and systematic approach has provided more
+ insight in functioning of the TS methods and allowing for exploration of
+ novel methods and improving TS efficacy.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Simulation of the electromagnetic field in cranium may lead in construction
+ of more efficient and compatible stimulation and acquisition devices.
+ Functional mapping may reveal new locations for stimulation and together
+ with study of functional connectivity of different cortical areas can bring
+ novel applications of TS.
+ From usage of static stimulation protocols the research is moving forward
+ to include real-time processing of electrophysiological or volumetric data
+ to adjust electrical, temporal or spatial parameters of the stimulation
+ based on observed state of the neuronal network and individual physiological
+ properties.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+The main challenges for future research and development of TS methods include
+ involvement of online processing of neuronal network activity and adjustment
+ of stimulation parameters based on underlying activity.
+ This includes the construction of compatible acquisition and stimulation
+ devices, the signal processing and analysis algorithms allowing for filtering
+ of the artifacts, direct controlling of stimulation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Enumerate
+The methods of transcranial stimulation are used to modulate cortical activity
+ for treatment.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Improvement have to be carried out carefuly.
+ The stimulation concepts have to be verified by modeling and simulation,
+ in-vitro studies, and clinical studies that are specific in particular
+ field of medicine.
+\end_layout
+
+\begin_layout Enumerate
+mention indications and efficacy of DBS x NIBS x pharmacological approach,
+ and highlight features of the NIBS
+\end_layout
+
+\begin_layout Enumerate
+The treatment follows simple stimulation protocols, that are mostly based
+ on empirical knowledge.
+ In recent studies the parameters of the stimulation (placement and shape
+ of the electrodes, coils, parameters of the electromagnetic field) has
+ been manipulated based on simulation of the field in the tissue.
+ 
+\end_layout
+
+\begin_layout Enumerate
+simulation FEM has been succesfully used to improve the coil design and
+ electrode placement.
+ expectation of further improvements.
+\end_layout
+
+\begin_layout Enumerate
+novel challenges : online processing and adjustment of stimulation paramters
+ (intesity, and temporal features, ..
+ ) can imediately improve the stimulation effects and target location based
+ on underlaying activity.
+ thougth there has limitations ..
+\end_layout
+
+\begin_layout Enumerate
+temporal and spatial colocalization of the neuronal act.
+ recording and the stimulation is the main challenge at present time.
+ 
+\end_layout
+
+\begin_layout Enumerate
+there are undefinite options in parametrization of stimulation, but
+\end_layout
+
+\begin_layout Enumerate
+structured research in field of the parametrization of stimulation and technique
+s of the colocalisation of the neuronal act.
+ recording and stimulation 
+\end_layout
+
+\begin_layout Enumerate
+improvements in native tissue 
+\end_layout
+
+\begin_layout Enumerate
+priblizit simulaciu a chovanie nativnej tkane
+\end_layout
+
+\begin_layout Enumerate
+presne vediet parametre pola a jeho efektov - simulacie FEM, but it can
+ help in immediately
+\end_layout
+
+\begin_layout Enumerate
+Problems with stimulation and coregistration of brain electrical often produces
+ artifacts due to interference of measurements with the stimulation field.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The main chalenges for future research and development include the construction
+ of compatible acquistion and stimulation devices and the signal processing
+ and analysis algorithms allowing for filtering of the artifacts, direct
+ controlling of stimulation in reaction to pathological changes in underlaying
+ tissue activity (e.g.
+ in case of psychiatrical dissorders).
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/home/pborky/Documents/Mendeley/BibTeX/Fileds-Non-invasive brain stimulation"
+options "bibtotoc,IEEEtran"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
